@@ -1,0 +1,15 @@
+/home/benoit/dev/AoC/aoc_5_1/bin/Debug/net8.0/aoc_5_1
+/home/benoit/dev/AoC/aoc_5_1/bin/Debug/net8.0/aoc_5_1.deps.json
+/home/benoit/dev/AoC/aoc_5_1/bin/Debug/net8.0/aoc_5_1.runtimeconfig.json
+/home/benoit/dev/AoC/aoc_5_1/bin/Debug/net8.0/aoc_5_1.dll
+/home/benoit/dev/AoC/aoc_5_1/bin/Debug/net8.0/aoc_5_1.pdb
+/home/benoit/dev/AoC/aoc_5_1/obj/Debug/net8.0/aoc_5_1.GeneratedMSBuildEditorConfig.editorconfig
+/home/benoit/dev/AoC/aoc_5_1/obj/Debug/net8.0/aoc_5_1.AssemblyInfoInputs.cache
+/home/benoit/dev/AoC/aoc_5_1/obj/Debug/net8.0/aoc_5_1.AssemblyInfo.cs
+/home/benoit/dev/AoC/aoc_5_1/obj/Debug/net8.0/aoc_5_1.csproj.CoreCompileInputs.cache
+/home/benoit/dev/AoC/aoc_5_1/obj/Debug/net8.0/aoc_5_1.sourcelink.json
+/home/benoit/dev/AoC/aoc_5_1/obj/Debug/net8.0/aoc_5_1.dll
+/home/benoit/dev/AoC/aoc_5_1/obj/Debug/net8.0/refint/aoc_5_1.dll
+/home/benoit/dev/AoC/aoc_5_1/obj/Debug/net8.0/aoc_5_1.pdb
+/home/benoit/dev/AoC/aoc_5_1/obj/Debug/net8.0/aoc_5_1.genruntimeconfig.cache
+/home/benoit/dev/AoC/aoc_5_1/obj/Debug/net8.0/ref/aoc_5_1.dll
