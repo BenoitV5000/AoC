@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\benoi\\dev\\AoC\\aoc_5_1\\aoc_5_1.csproj",
-      "projectName": "aoc_5_1",
-      "projectPath": "C:\\Users\\benoi\\dev\\AoC\\aoc_5_1\\aoc_5_1.csproj",
+      "projectUniqueName": "C:\\Users\\benoi\\dev\\AoC\\aoc_5_2\\aoc_5_2.csproj",
+      "projectName": "aoc_5_2",
+      "projectPath": "C:\\Users\\benoi\\dev\\AoC\\aoc_5_2\\aoc_5_2.csproj",
       "packagesPath": "C:\\Users\\benoi\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\benoi\\dev\\AoC\\aoc_5_1\\obj\\",
+      "outputPath": "C:\\Users\\benoi\\dev\\AoC\\aoc_5_2\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\benoi\\AppData\\Roaming\\NuGet\\NuGet.Config"
