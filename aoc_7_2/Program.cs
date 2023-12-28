@@ -2,11 +2,6 @@
 Strategy
 
 Pretty much the same strategy as in p1, except when checking for types, see if we can change any J to increase the hand's power
-
-1- Create a Comparer which will contain the type rules to compare cards
-2- Parse the input to get a list of Hand values
-3- Iterate every hands and add them to a sorted set
-4- Iterate the sorted list to calculate the total winnings
 */
 
 List<Card> ALL_CARD_LIST = [
@@ -36,18 +31,7 @@ foreach (Hand hand in handList) {
 long totalWinnings = 0;
 var ranking = 1;
 foreach (Hand hand in handsInWinningOrder) {
-    if (hand.CardList.Count(el => el.Label == 'J') >= 3) {
-        Console.WriteLine($"Ranking {ranking}: {string.Join("", hand.CardList.Select(el => el.Label).ToArray())} (more than three J here)");
-    } else if (hand.CardList.Count(el => el.Label == 'J') == 2) {
-        Console.WriteLine($"Ranking {ranking}: {string.Join("", hand.CardList.Select(el => el.Label).ToArray())} (exactly two J here)");
-    } else if (hand.CardList.Count(el => el.Label == 'J') == 1) {
-        Console.WriteLine($"Ranking {ranking}: {string.Join("", hand.CardList.Select(el => el.Label).ToArray())} (exactly one J here)");
-    } else {
-        Console.WriteLine($"Ranking {ranking}: {string.Join("", hand.CardList.Select(el => el.Label).ToArray())}");
-    }
     totalWinnings += hand.Bid * ranking++;
-    
-    //Console.WriteLine($"Ranking {ranking - 1}: {string.Join("", hand.CardList.Select(el => el.Label).ToArray())} with bid {hand.Bid}. Total winnings: {totalWinnings}");
 }
 Console.WriteLine($"Total winnings: {totalWinnings}");
 
