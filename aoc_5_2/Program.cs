@@ -1,9 +1,6 @@
 ﻿/*
 Strategy
 
-Did some tests with the part 1 solution to see if I could bruteforce p2 with the same algorithm... it would take 46 days to go through the almost 2 billions seeds, so thats out of the window.
-Instead, I'll start from location 0 and work my way in reverse until we hit a seed that exists in the range.
-
 1- Parse the input to get every possible seed numbers
 2- Parse the input to get in memory every mapping from the destination to the source and the direction of the mapping
 3- Iterate starting from the lowest location number possible (0)
@@ -65,55 +62,6 @@ for (long i = 0; i < MAX_ITERATION; i++) {
 Console.WriteLine("Could not find any seed number");
 Console.WriteLine($"Elapsed time: {stopwatch.ElapsedMilliseconds / 1000f} seconds");
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*foreach (string seed in seedList) {
-    long previousDestination = long.Parse(seed);
-    foreach (ConversionPair conversionPair in conversionPairList) {
-        List<List<string>> conversionMap = getConversionMap(conversionPair.sourceHeader, conversionPair.destinationHeader);
-        foreach (List<string> conversion in conversionMap) {
-            long destination = long.Parse(conversion[0]);
-            long source = long.Parse(conversion[1]);
-            long range = long.Parse(conversion[2]);
-            if (previousDestination >= source && previousDestination < source + range) {
-                previousDestination = destination + previousDestination - source;
-                break;
-            }
-        }
-    }
-    if (lowestLocationNumber == -1 || previousDestination < lowestLocationNumber) {
-        lowestLocationNumber = previousDestination;
-    }
-}
-Console.WriteLine($"Lowest location number: {lowestLocationNumber}");*/
-
-
-
 List<List<string>> getConversionMap(string sourceCategoryHeader, string destinationCategoryHeader) {
     List<List<string>> map = [];
     string conversionList;
@@ -146,8 +94,6 @@ List<SeedRange> getSeedRangeList(string[] seedList) {
     }
     return seedRangeList;
 }
-
-
 
 class ConversionPair {
     public string sourceHeader;
