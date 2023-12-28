@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\benoi\\dev\\AoC\\aoc_7_2\\aoc_7_2.csproj": {}
+    "c:\\Users\\benoi\\dev\\AoC\\aoc_8_1\\aoc_8_1.csproj": {}
   },
   "projects": {
-    "C:\\Users\\benoi\\dev\\AoC\\aoc_7_2\\aoc_7_2.csproj": {
+    "c:\\Users\\benoi\\dev\\AoC\\aoc_8_1\\aoc_8_1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\benoi\\dev\\AoC\\aoc_7_2\\aoc_7_2.csproj",
-        "projectName": "aoc_7_2",
-        "projectPath": "C:\\Users\\benoi\\dev\\AoC\\aoc_7_2\\aoc_7_2.csproj",
+        "projectUniqueName": "c:\\Users\\benoi\\dev\\AoC\\aoc_8_1\\aoc_8_1.csproj",
+        "projectName": "aoc_8_1",
+        "projectPath": "c:\\Users\\benoi\\dev\\AoC\\aoc_8_1\\aoc_8_1.csproj",
         "packagesPath": "C:\\Users\\benoi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\benoi\\dev\\AoC\\aoc_7_2\\obj\\",
+        "outputPath": "c:\\Users\\benoi\\dev\\AoC\\aoc_8_1\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\benoi\\AppData\\Roaming\\NuGet\\NuGet.Config"
